@@ -9,7 +9,7 @@ if fromBase == 10 and toBase == 2:
         rem = number % 2
         number = int(number/2)
         emp += str(rem)
+    print("{} is Binary conversion of {}".format(emp, nm))
 else:
     print("Invalid input !!")
 
-print("{} is Binary conversion of {}".format(emp, nm))
